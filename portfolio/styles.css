@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+
+header {
+    background-color: #333;
+    position: fixed;
+    width: 98%;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#home{
+    font-size: 45px;
+    font-style: italic;
+}
+#about{
+    font-style: italic;
+    font-size: larger;
+}
+
+.about-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+ .about-text {
+    flex: 1;
+    padding-right: 2rem;
+    font-size: large;
+    font-style: italic;
+}
+
+ .about-image {
+    flex: 1;
+}
+
+ .about-image img {
+    max-width: 50%;
+    height: 50%;
+    border-radius: 20px;
+}
+#skills{
+    font-size: large;
+    font-style: italic;
+}
+.skill img{
+    border-radius: 10px;
+    
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    height: auto;
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    width: 200px;
+
+
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    padding: 0 20px;
+}
+
+nav ul li a {
+    color: blue;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+#home, #about, #skills, #contact {
+    background-color: black;
+}
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+form input, form textarea {
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+}
